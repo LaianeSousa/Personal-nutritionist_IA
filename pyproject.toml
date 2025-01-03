@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "nutritionist-ai"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Sublate <samuelsublate.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-openai = "^0.2.1"
+langchain-community = "^0.3.1"
+langchainhub = "^0.1.21"
+langgraph = "^0.2.32"
+langchain-core = "^0.3.7"
+langchain = "^0.3.1"
+python-dotenv = "^1.0.1"
+pillow = "^10.4.0"
+pyrogram = "^2.0.106"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
